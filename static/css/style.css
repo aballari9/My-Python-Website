@@ -4,5 +4,14 @@
 }
 
 body {
-  background-color: #D3D3D3;
+  background-color: #241b50;
+}
+
+.headerDiv {
+  margin: 100px 20px 20px 20px;
+  width: calc(100vw - 40px);
+  height: calc(100vh - 120px);
+  background-color: #241b50;
+  color: #FFFFFF;
+  align-items: center;
 }
