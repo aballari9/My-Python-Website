@@ -1,30 +1,27 @@
 *, html, body {
   margin: 0px;
-  padding-left: 0px;
+  padding: 0px;
 }
 
 body {
   background-color: #F9F9F9;
 }
 
-.headerDiv {
-  margin: 100px 20px 20px 20px;
-  width: calc(100vw - 40px);
-  height: calc(100vh - 120px);
-  background-color: #FFFFFF;
-  color: #241b50;
-  align-items: center;
-}
 
 .navbar_other {
     font-family: 'PT Sans', sans-serif;
     padding: 50px;
     height: 150px;
     width: 100%;
+    margin: 0px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: rgba(255, 0, 0, 1);
+    font-weight: 600;
+    font-size: 25px;
+    vertical-align: center;
 }
 
 .parallax {
@@ -50,7 +47,7 @@ body {
 }
 
 .mainDiv {
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 .sectionContainer {
