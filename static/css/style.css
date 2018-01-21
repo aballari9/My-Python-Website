@@ -4,14 +4,98 @@
 }
 
 body {
-  background-color: #241b50;
+  background-color: #F9F9F9;
 }
 
 .headerDiv {
   margin: 100px 20px 20px 20px;
   width: calc(100vw - 40px);
   height: calc(100vh - 120px);
-  background-color: #241b50;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #241b50;
   align-items: center;
 }
+
+.navbar_other {
+    font-family: 'PT Sans', sans-serif;
+    padding: 50px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax {
+    margin: 0px 30px;
+    width: calc(100%-60px);
+    height: calc(100%-20px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-inner {
+    font-family: 'PT Sans', sans-serif;
+    padding: 260px 0px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.mainDiv {
+    padding-top: 60px;
+}
+
+.sectionContainer {
+    width: 100%;
+}
+
+.bodyContainer {
+    margin: 200px 300px;
+}
+.headerContainer {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 40px;
+    margin: 0px;
+    padding: 5px;
+    color: #525152;
+}
+
+.imageContainer {
+
+}
+.infoContainer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+    margin: 0px;
+    padding: 5px;
+    color: #B5B4B5;
+    line-height: 200%;
+
+}
+
+
+.resumeDoc {
+    width: 50%;
+    margin: 0px 25%;
+    height: 1200px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .bodyContainer {
+        margin: 50px;
+    }
